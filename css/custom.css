@@ -1,0 +1,72 @@
+/*  UNIVERSAL */
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/*  HEADER */
+#header {
+  background-color: lightgreen;
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#logo {
+  float: left;
+  margin-left: 20px; 
+}
+
+#nav {
+  float: right;
+  margin-right: 20px; 
+}
+
+#nav li {
+  display: inline;
+  padding-left: 10px;
+}
+
+/*  ABOUT */
+#about {
+  background-color: lightblue;
+  float: left;
+  clear: left;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 30px;
+}
+
+#about p {
+  margin: 0 20px 0 20px;
+}
+
+/*  PROJECTS */
+#projects {
+  background-color: lightgrey;
+  float: left;
+  clear: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+/*  CONTACT */
+#contact {
+  background-color: lightpink;
+  float: left;
+  clear: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+/*  FOOTER */
+#footer {
+  float: left;
+  clear: left;
+  width: 70%;
+  margin-left: 15%;
+}
