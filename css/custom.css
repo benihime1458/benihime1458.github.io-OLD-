@@ -52,6 +52,13 @@ p {
   clear: left;
   width: 70%;
   margin-left: 15%;
+  text-align: center;
+}
+
+#projects img {
+  width: 80%;
+  padding: 30px;
+
 }
 
 /*  CONTACT */
