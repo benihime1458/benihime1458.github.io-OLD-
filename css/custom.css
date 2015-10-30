@@ -55,9 +55,23 @@ p {
   text-align: center;
 }
 
+#gallery {
+  text-align: center;
+  width: 90%;
+  margin-left: 12.5%;
+}
+
+.img {
+  padding: 5px;
+  float: left;
+  height: auto;
+  width: 40%;
+  display: inline;
+}
+
 #projects img {
-  width: 80%;
-  padding: 30px;
+  width: 100%;
+  text-align: center;
 
 }
 
