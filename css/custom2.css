@@ -1,7 +1,9 @@
 /*  UNIVERSAL */
 
 body {
+  background-image: url('../img/mushrooms.jpg');
   background-attachment: fixed;
+  font-family: Arial; 
 }
 
 .container { 
@@ -98,11 +100,15 @@ p {
   border-radius: 10px;
 }
 
+.img a {
+  text-decoration: none;
+}
+
 /* CONTACT */ 
 
 #contact {
   clear: both;
-  text-align: center;
+	text-align: center;
 }
 
 /* FOOTER */
@@ -110,4 +116,14 @@ p {
 #footer {
   margin-top: 100px;
   text-align: center; 
+  clear: left;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 30px;
 }
