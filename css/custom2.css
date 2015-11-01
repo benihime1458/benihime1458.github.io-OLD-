@@ -120,11 +120,15 @@ p {
 }
 
 .icon {
-  text-decoration: none;
   height: 30px;
   width: 30px;
   margin: 4px;
   background-color: white;
   opacity: 0.6;
   border-radius: 30px;
+}
+
+.icon a {
+	  text-decoration: none;
+}
 }
