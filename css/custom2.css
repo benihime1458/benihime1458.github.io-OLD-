@@ -25,6 +25,11 @@ p {
   opacity: 0.6;
 }
 
+a { 
+  text-decoration: none; 
+  color: white;
+}
+
 /*  HEADER */
 
 #header {
@@ -48,11 +53,6 @@ p {
   list-style: none;
   display: inline-block;
   padding-left: 15px;
-}
-
-#nav li a {
-  text-decoration: none;
-  color: white;
 }
 
 /*  ABOUT */
@@ -100,10 +100,6 @@ p {
   border-radius: 10px;
 }
 
-.img a {
-  text-decoration: none;
-}
-
 /* CONTACT */ 
 
 #contact {
@@ -128,7 +124,4 @@ p {
   border-radius: 30px;
 }
 
-#footer a {
-	  text-decoration: none;
-}
 
