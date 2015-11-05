@@ -104,6 +104,19 @@ li a {
   text-decoration: none;
 }
 
+span {
+  border: 5px solid #DFDFDF;
+  background-color:#FDF6E3;
+  text-align: center; 
+  display: none;
+  color: #6787AB;
+  position: relative;
+}
+
+.img:hover span{
+  display: block;
+}
+
 /* CONTACT */ 
 
 #contact {
