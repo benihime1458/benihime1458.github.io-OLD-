@@ -13,3 +13,11 @@
 + project content
 + linked to heroku apps
 
+110515
++ improved site readability
++ hover descriptions for projects
++ github icon added to footer
++ organized image folders
++ project content
+
+
