@@ -1,16 +1,19 @@
 /*  UNIVERSAL */
 
 body {
-  background-image: url('../img/mushrooms.jpg');
+  background-image: url('../img/backgrounds/bird.jpg');
   background-attachment: fixed;
   font-family: Arial; 
 }
 
 .container { 
+  position: absolute;
   width: 80%;
-  margin-top: 0px;
   margin-left: 10%;
+  background: rgba(0,0,0,0.2);
+  margin-top: -20px;
 }
+
 
 h1, h2 {
   text-align: center;
@@ -72,6 +75,7 @@ li a {
 }
 
 #about p {
+  font-size: 1.4em;
   margin-top: 10px;
   float: left;
   width: 63%;
@@ -100,22 +104,34 @@ li a {
   border-radius: 10px;
 }
 
-.img a { 
-  text-decoration: none;
-}
-
-span {
-  border: 5px solid #DFDFDF;
-  background-color:#FDF6E3;
-  text-align: center; 
-  display: none;
-  color: #6787AB;
+a.hoverimg { 
+  text-decoration: none !important;
   position: relative;
 }
 
-.img:hover span{
-  display: block;
+a.hoverimg:after {
+  content: attr(desc);
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  /* background: #FDF6E3; */
+  /* color: #6787AB; */
+  border-radius: 10px;
+  font-size: 0.9em;
+  left: 0;
+  bottom: 3px;
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
 }
+
+a.hoverimg:hover:after {
+  opacity: 0.9;
+}
+
 
 /* CONTACT */ 
 
